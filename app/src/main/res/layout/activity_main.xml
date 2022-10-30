@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/ic_baseline_image_24" />
+
+    <Button
+        android:id="@+id/photo"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imageview"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/image_logo"
+        android:drawableLeft="@drawable/ic_baseline_camera_alt_24"
+        android:padding="20dp"
+        android:text="take picture"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/image_logo"
+        android:drawableLeft="@drawable/ic_baseline_insert_drive_file_24"
+        android:padding="20dp"
+        android:text="open picture"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
